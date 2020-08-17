@@ -24,18 +24,24 @@ public Movie(){
 	
         }
 
+
  public static int priceCode(String name, int price){
 	 if(price <5){
 		 
-		 System.out.println("This is a rental movie ");
+		 System.out.println("The " +name + " is a rental movie ");
+		 		 System.out.println("The price is " +price);
+
 	 }
 		 else
 		
 		 
-		System.out.println("This is a purchased movie");
+		 System.out.println("The " +name + " is a purchased movie ");
+	 		 		 System.out.println("The price is " +price);
+
 	    return 0;
 	 
  }
+
 
 public Movie(String name) {
 _name = name;
