@@ -35,29 +35,5 @@ _priceCode=priceCode;
     public int priceCode() {
 return _priceCode;
 }
-
-     public static int priceCode(String name, int priceCode){
-	 if(priceCode <5){
-		 
-		 System.out.println("This is a rental movie ");
-	 }
-		 else
-		
-		 
-		System.out.println("This is a purchased movie");
-	    return 0;
-	 
-	 
- }
-
-	
-} 
-
-
-
-
-
-
-
-
+}
 

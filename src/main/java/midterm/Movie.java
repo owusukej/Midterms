@@ -24,8 +24,8 @@ public Movie(){
 	
         }
 
- public static int priceCode(String name, int priceCode){
-	 if(priceCode <5){
+ public static int priceCode(String name, int price){
+	 if(price <5){
 		 
 		 System.out.println("This is a rental movie ");
 	 }
@@ -53,6 +53,7 @@ public String name() {
 return _name;
 }
 }
+
 
 
 
